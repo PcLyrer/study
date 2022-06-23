@@ -487,11 +487,11 @@ Git工作目录下对于文件的修改(增加、删除、更新)会存在几个
   git pull
   ````
 
-  出现以下提示表示拉取成功：
+  出现以下提示表示拉取成功：    
 
   ![Image 05](https://github.com/PcLyrer/study/blob/main/Image/05.png?raw=true)
 
-  并且本地仓库中也出现了该文件：
+  并且本地仓库中也出现了该文件：    
   ![Image 06](https://github.com/PcLyrer/study/blob/main/Image/06.png?raw=true) 
 
 
@@ -543,7 +543,7 @@ Git工作目录下对于文件的修改(增加、删除、更新)会存在几个
 7. 修改文件后，重复上述操作，更新版本，此时由于连接有远程仓库，commit后直接push
 
 - 实例：
-  将本地发反射章节的代码上传至GitHub上的Hello_World仓库，如图所示：
+  将本地发反射章节的代码上传至GitHub上的Hello_World仓库，如图所示：   
   ![Image 07](https://github.com/PcLyrer/study/blob/main/Image/07.png?raw=true)
 
 ### 5.2、将远程仓库clone至本地
@@ -556,7 +556,7 @@ Git工作目录下对于文件的修改(增加、删除、更新)会存在几个
 
 ### 5.3、创建分支
 
-1. 分支相关操作可在以下完成：
+1. 分支相关操作可在以下完成：   
    ![Image text](https://github.com/PcLyrer/study/blob/main/Image/08.png?raw=true)
 
    
