@@ -73,7 +73,7 @@ Git的优势：
 6. pull(拉取)：从远程库拉到本地库，自动合并(merge)，然后放到工作区，相当于fetch+merge
 7. push(推送)：修改完成后，将代码推送到远程仓库
 
-Git中常用的Linux命令
+Git中常用的Linux命令：
 
 ````
 ls/ll	查看当前目录（ll查看隐藏文件）
@@ -354,23 +354,27 @@ Git工作目录下对于文件的修改(增加、删除、更新)会存在几个
 
 8. 分支在开发中的使用原则和规范
 
-   master（生产）分支
+   - master（生产）分支
 
-   线上分支，主分支，中小规模项目作为线上运行的应用对应的分支
+     线上分支，主分支，中小规模项目作为线上运行的应用对应的分支
 
-   develop（开发）分支
+   
+   - develop（开发）分支
+   
+     是从master创建的分支，一般作为开发部门的主要开发分支，如果没有其他并行开发不同期上线要求，都可以在此版本进行开发，阶段开发完成后，需要是合并到master分支,准备上线。
+   
 
-   是从master创建的分支，一般作为开发部门的主要开发分支，如果没有其他并行开发不同期上线要求，都可以在此版本进行开发，阶段开发完成后，需要是合并到master分支,准备上线。
+   - feature/xxxx分支
 
-   feature/xxxx分支
+     从develop创建的分支，一般是同期并行开发，但不同期上线时创建的分支，分支上的研发任务完成后合并到develop分支。
 
-   从develop创建的分支，一般是同期并行开发，但不同期上线时创建的分支，分支上的研发任务完成后合并到develop分支。
-
-   hotfix/xxxx分支
-
-   从master派生的分支，一般作为线上bug修复使用，修复完成后需要合并到master、test、develop分支
-
-   提示：一般master和develop分支是不删除的，是固定保留的，创建的其他分支，当合并到develop上，可以删除这个分支
+   
+   - hotfix/xxxx分支
+   
+     从master派生的分支，一般作为线上bug修复使用，修复完成后需要合并到master、test、develop分支
+   
+   
+   - 提示：一般master和develop分支是不删除的，是固定保留的，创建的其他分支，当合并到develop上，可以删除这个分支
 
 
 
@@ -418,7 +422,7 @@ Git工作目录下对于文件的修改(增加、删除、更新)会存在几个
    warning: You appear to have cloned an empty repository.
    ````
 
-   此时，将GitHub的仓库能够克隆到本地
+   此时，能够将GitHub的仓库克隆到本地
 
 4. 在本地仓库上做对应的操作（提交暂存区、提交本地仓库、提交线上仓库、拉取线上仓库）  
    提交暂存区：git add  
@@ -477,28 +481,35 @@ Git工作目录下对于文件的修改(增加、删除、更新)会存在几个
 
 - 再次提交到线上仓库，提交成功，如图：
 
-  ![Image 03](https://github.com/PcLyrer/study/blob/main/Image/03.png?raw=true) 
+  ![Image 03](https://github.com/PcLyrer/study/blob/main/Image/03.png?raw=true)    
 
-  并且在线上仓库上也能看到READEME.md文件，如图：
-  ![Image 04](https://github.com/PcLyrer/study/blob/main/Image/04.png?raw=true) 
+  
+
+  并且在线上仓库上也能看到READEME.md文件，如图：  
+
+  ![Image 04](https://github.com/PcLyrer/study/blob/main/Image/04.png?raw=true)    
+
+  
 
   - 提示：关键字fetal显示错误
 
 - 拉取线上的文件，首先在线上仓库中创建OnlineFile.txt文件，并添加内容，然后拉取到本地：
 
   ````
-  git pull
+  #将远程仓库拉取到本地的命令
+  git pull 
   ````
 
-  出现以下提示表示拉取成功：    
+  出现以下提示表示拉取成功：      
 
   ![Image 05](https://github.com/PcLyrer/study/blob/main/Image/05.png?raw=true)
 
   
-  
+
   并且本地仓库中也出现了该文件：    
+
   ![Image 06](https://github.com/PcLyrer/study/blob/main/Image/06.png?raw=true) 
-  
+
   
 
 - 提示
