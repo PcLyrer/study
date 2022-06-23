@@ -51,7 +51,7 @@ Git的优势：
 
 - Git工作流程图
 
-![image-20220622153950551](E:\Download\GitHubLocalRepository\study\study\Image\Git工作流程)
+![Image 01](https://github.com/PcLyrer/study/blob/main/Image/01.png?raw=true)
 
 常用命令：
 
@@ -141,7 +141,7 @@ vi		vi编辑器
 
 Git工作目录下对于文件的修改(增加、删除、更新)会存在几个状态，这些修改的状态会随着我们执行Git的命令而发生变化。
 
-![image-20220622163759725](E:\Download\GitHubLocalRepository\study\study\Image\文件的修改状态)
+![Image 02](https://github.com/PcLyrer/study/blob/main/Image/02.png?raw=true)
 
 首先掌握Git使用命令在这些状态的转换：
 
@@ -474,10 +474,10 @@ Git工作目录下对于文件的修改(增加、删除、更新)会存在几个
 
 - 再次提交到线上仓库，提交成功，如图：
 
-  ![image-20220623114234393](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220623114234393.png)
+  ![Image 03](https://github.com/PcLyrer/study/blob/main/Image/03.png?raw=true) 
 
   并且在线上仓库上也能看到READEME.md文件，如图：
-  ![image-20220623114356014](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220623114356014.png)
+  ![Image 04](https://github.com/PcLyrer/study/blob/main/Image/04.png?raw=true) 
 
   - 提示：关键字fetal显示错误
 
@@ -489,10 +489,10 @@ Git工作目录下对于文件的修改(增加、删除、更新)会存在几个
 
   出现以下提示表示拉取成功：
 
-  ![image-20220623115021575](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220623115021575.png)
+  ![Image 05](https://github.com/PcLyrer/study/blob/main/Image/05.png?raw=true)
 
   并且本地仓库中也出现了该文件：
-  ![image-20220623115116805](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220623115116805.png)
+  ![Image 06](https://github.com/PcLyrer/study/blob/main/Image/06.png?raw=true) 
 
 
 
@@ -544,7 +544,7 @@ Git工作目录下对于文件的修改(增加、删除、更新)会存在几个
 
 - 实例：
   将本地发反射章节的代码上传至GitHub上的Hello_World仓库，如图所示：
-  ![image-20220623151016117](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220623151016117.png)
+  ![Image 07](https://github.com/PcLyrer/study/blob/main/Image/07.png?raw=true)
 
 ### 5.2、将远程仓库clone至本地
 
@@ -557,13 +557,13 @@ Git工作目录下对于文件的修改(增加、删除、更新)会存在几个
 ### 5.3、创建分支
 
 1. 分支相关操作可在以下完成：
-   ![image-20220623160206776](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220623160206776.png)
+   ![Image text](https://github.com/PcLyrer/study/blob/main/Image/08.png?raw=true)
 
    
 
 - 最后IDEA集成GitBash作为Terminal设置，注意设置的是bin目录下的bash.exe，而不是git-bash.exe，这样就可以使用命令行来进行控制Git了。
 
-  ![image-20220623161041352](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220623161041352.png)
+  ![Image text](https://github.com/PcLyrer/study/blob/main/Image/09.png?raw=true)
 
 
 
