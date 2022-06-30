@@ -674,7 +674,7 @@ SELECT 列名
 
 - SQL算术操作符(可以使用圆括号来修改优先级)
 
-  ![image-06(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/06.png)
+  ![image-06](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/06.png)
 
 
 
@@ -737,7 +737,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 - 常见的日期和时间处理函数：
 
-![image-07(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/07.png)
+![image-07](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/07.png)
 
 - 实例1：
 
@@ -791,7 +791,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 - 常见的数据处理函数有：
 
-  ![image-08(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/08.png)
+  ![image-08](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/08.png)
 
 - 课后题
 
@@ -836,7 +836,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 2. SQL的五个聚集函数：
 
-   ![image-09(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/09.png)
+   ![image-09](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/09.png)
 
 3. AVG()函数
 
@@ -1029,7 +1029,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 5. ORDER BY和GROUP BY分组
 
-   ![image-10(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/10.png)
+   ![image-10](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/10.png)
 
    ````mysql
    # ORDER BY 和GROUP BY子句通常结合使用
@@ -1042,7 +1042,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 6. 查询语句中的使用顺序：
 
-   ![image-11https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/11.png)
+   ![image-11](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/11.png)
 
 - 课后题
 
@@ -1747,7 +1747,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
    - MySQL支持的所有布尔搜索操作符：
 
-     ![image-12(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/12.png)
+     ![image-12](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/12.png)
 
    - 举例说明其中操作符的使用：
 
@@ -2156,7 +2156,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
    	CHARACTER SET utf8 COLLATE utf8_bin ENGINE INNODB;
    ````
 
-   ![image-13(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/13.png)
+   ![image-13](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/13.png)
 
 4. 在创建表时，要求指定的表名必须不存在，否则会出错，这样是为了防止意外的覆盖已有的表。
 
@@ -2229,7 +2229,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
    - 常见数据库获取系统日期函数如下：
 
-   ![image-14(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/14.png)
+   ![image-14](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/14.png)
 
    
 
@@ -3230,7 +3230,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 7. 给表指定字符集和校对，一般是在使用CREATE TABLE创建表的时候指定。
 
-   ![image-13(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/13.png)
+   ![image-13](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/13.png)
 
    ````mysql
    # 给表指定字符集和校对规则
