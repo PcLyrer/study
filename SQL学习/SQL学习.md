@@ -228,7 +228,7 @@ SELECT 列名
 
 2. WHERE子句操作符
 
-   ![image-20220624163810495](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220624163810495.png)
+   ![image-01](https://github.com/PcLyrer/study/raw/main/Image/Image_MySQL/01.png)
    
 3. 检查单个值：
 
@@ -499,7 +499,7 @@ SELECT 列名
 
    另外：'\\\\' 还用来引用元字符（具有特殊含义的字符），如下图所示：
 
-   ![image-20220629085559097](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220629085559097.png)
+   ![image-02](https://github.com/PcLyrer/study/raw/main/Image/Image_MySQL/02.png)
 
    另外如果需要匹配包含 '\\'的值，我们需要以 '\\\\\\' 的形式，如果需要匹配 '\\\\\'的值，则需要 '\\\\\\\\\\\\\' 这样的形式，正则表达式一般是使用单个 '\\' 作为转义字符使用的，但是在MySQL中要求两个 '\\\\\' ，因为MySQL自己解释一个，正则表达式库解释另一个。
 
@@ -507,13 +507,13 @@ SELECT 列名
 
    存在找出你自己经常使用的数字、所有字母字符或所有数字字母字 符等的匹配。为更方便工作，可以使用预定义的字符集，称为字符类 （character class）。下图列出字符类以及它们的含义：
 
-   ![image-20220629090157421](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220629090157421.png)
+   ![image-03](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/03.png)
 
 9. 匹配多个实例
 
    目前为止使用的所有正则表达式都试图匹配单次出现。但有时需要对匹配的数目进行更强的控制。下面的表列出的正则表达式重复元字符。
 
-   ![image-20220629091115316](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220629091115316.png)
+   ![image-04](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/04.png)
 
    实例：
 
@@ -546,7 +546,7 @@ SELECT 列名
 
     目前为止的所有例子都是匹配一个串中任意位置的文本。为了匹配特定位置的文本，需要使用如下的定位符：
 
-    ![image-20220629095052074](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220629095052074.png)
+    ![image-05(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/05.png)
 
     实例：
 
@@ -674,7 +674,7 @@ SELECT 列名
 
 - SQL算术操作符(可以使用圆括号来修改优先级)
 
-  ![image-20220625100053910](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220625100053910.png)
+  ![image-06(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/06.png)
 
 
 
@@ -737,7 +737,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 - 常见的日期和时间处理函数：
 
-![image-20220629102707211](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220629102707211.png)
+![image-07(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/07.png)
 
 - 实例1：
 
@@ -791,7 +791,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 - 常见的数据处理函数有：
 
-  ![image-20220629104853044](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220629104853044.png)
+  ![image-08(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/08.png)
 
 - 课后题
 
@@ -836,7 +836,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 2. SQL的五个聚集函数：
 
-   ![image-20220626074650366](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220626074650366.png)
+   ![image-09(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/09.png)
 
 3. AVG()函数
 
@@ -1029,7 +1029,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 5. ORDER BY和GROUP BY分组
 
-   ![image-20220626161524463](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220626161524463.png)
+   ![image-10(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/10.png)
 
    ````mysql
    # ORDER BY 和GROUP BY子句通常结合使用
@@ -1042,7 +1042,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 6. 查询语句中的使用顺序：
 
-   ![image-20220629110800991](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220629110800991.png)
+   ![image-11https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/11.png)
 
 - 课后题
 
@@ -1747,7 +1747,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
    - MySQL支持的所有布尔搜索操作符：
 
-     ![image-20220629143918374](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220629143918374.png)
+     ![image-12(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/12.png)
 
    - 举例说明其中操作符的使用：
 
@@ -2156,7 +2156,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
    	CHARACTER SET utf8 COLLATE utf8_bin ENGINE INNODB;
    ````
 
-   ![image-20220627165327735](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220627165327735.png)
+   ![image-13(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/13.png)
 
 4. 在创建表时，要求指定的表名必须不存在，否则会出错，这样是为了防止意外的覆盖已有的表。
 
@@ -2229,7 +2229,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
    - 常见数据库获取系统日期函数如下：
 
-   ![image-20220627170600086](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220627170600086.png)
+   ![image-14(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/14.png)
 
    
 
@@ -3230,7 +3230,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 7. 给表指定字符集和校对，一般是在使用CREATE TABLE创建表的时候指定。
 
-   ![image-20220630142401971](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220630142401971.png)
+   ![image-13(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/13.png)
 
    ````mysql
    # 给表指定字符集和校对规则
@@ -3368,7 +3368,7 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 10. 可以授予和撤销的权限：
 
-    ![QQ图片20220630162704](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\QQ图片20220630162704.jpg)
+    ![image-15](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/15.jpg)
 
     
 
@@ -3595,19 +3595,19 @@ SOUNDEX() 	# 返回字符串的SOUNDEX值
 
 1. 串数据类型：
 
-   ![image-20220630142054974](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220630142054974.png)
+   ![image-16](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/16.png)
 
 2. 数值数据类型
 
-   ![image-20220630142134460](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220630142134460.png)
+   ![image-17](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/17.png)
 
 3. 日期和时间数据类型
 
-   ![image-20220630142210405](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220630142210405.png)
+   ![image-18](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/18.png)
 
 4. 二进制数据类型
 
-   ![image-20220630142230662](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220630142230662.png)
+   ![image-19](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/19.png)
 
 
 
