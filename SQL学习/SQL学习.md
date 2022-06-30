@@ -546,7 +546,7 @@ SELECT 列名
 
     目前为止的所有例子都是匹配一个串中任意位置的文本。为了匹配特定位置的文本，需要使用如下的定位符：
 
-    ![image-05(https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/05.png)
+    ![image-05](https://github.com/PcLyrer/study/blob/main/Image/Image_MySQL/05.png)
 
     实例：
 
